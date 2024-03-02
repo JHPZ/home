@@ -20,4 +20,5 @@ navigator.serviceWorker.addEventListener("controllerchange", () => {
   // 弹出更新提醒
   console.log("站点已更新，刷新后生效");
   ElMessage("站点已更新，刷新后生效");
+  
 });
